@@ -1,0 +1,67 @@
+body{
+	background: none repeat scroll 0 0 #000000;
+	margin:auto;
+	width:960px;
+	-webkit-font-size-adjust:none; /* webkit kernel browser font size fix */
+}
+
+a{
+	color:#FFF;
+	text-decoration:none;
+}
+
+img {
+	border: 0 none;
+}
+
+textarea:focus {outline: none;} /* Remove the Chrome shine */
+input:focus{outline:none;}
+div#wrapper{
+
+}
+
+div#logo{
+	text-align:center;
+	margin:60px 0 0 0;
+}
+
+div#password{
+	font: 13px "Micorosft Yahei",Verdana,Arial,sans-serif;
+	color:#FFF;
+	text-align:center;
+}
+
+div#password input {
+	width:400px;
+	border:none;
+	padding:3px 4px;
+	background: none repeat scroll 0 0 #000;
+	color:#FFF;
+}
+
+div#password input#login{
+border: 2px solid #FFF;
+width:200px;
+border-radius: 14px;
+font: 12px "Microsoft Yahei",Verdana,Arial,sans-serif;
+}
+
+.info {
+	font: 11px "Micorosft Yahei",Verdana,Arial,sans-serif;
+	color:Gray;
+	text-align:center;
+	margin: 300px 0;
+}
+
+div#wrapper div#broadcast{
+	text-align:center;
+	margin: 300px 0;
+}
+
+div#wrapper div#designer{
+	position: absolute;
+	right:1%;
+	bottom:1%;
+	margin: auto;
+	padding: auto;
+}
