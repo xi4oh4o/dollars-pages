@@ -38,14 +38,15 @@ define("password", "mikado");
  * Determine whether there is login information.
  * provide is Login window or go to broadcast pages.
  */
-if($_POST['password'] == "" && $_POST['password'] == null) {?>
+if(!isset($_POST['password'])) {?>
     <div id="logo">
     <img src="dollars.jpg" alt="Dollars" />
     </div>
     <br /><br /><br />
     <div id="password">
     <form action="/dollars/" method="post">
-    PASSWORD:<input type="password" name="password" />
+    PASSWORD:&nbsp;&nbsp;<input type="password" name="password" id="passinput" />
+    <br /><br />
     <p><input type="submit" value="ENTER" id="login" /></p>
     </form>
     </div>
