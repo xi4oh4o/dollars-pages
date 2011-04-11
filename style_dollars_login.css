@@ -26,7 +26,7 @@ div#logo{
 }
 
 div#password{
-	font: 13px "Micorosft Yahei",Verdana,Arial,sans-serif;
+	font: 16px "Micorosft Yahei",Verdana,Arial,sans-serif;
 	color:#FFF;
 	text-align:center;
 }
@@ -35,8 +35,18 @@ div#password input {
 	width:400px;
 	border:none;
 	padding:3px 4px;
-	background: none repeat scroll 0 0 #000;
+	background: none repeat scroll 0 0 #252525;
 	color:#FFF;
+}
+
+div#password input#passinput{
+	background: none repeat scroll 0 0 #FFF;
+	border-radius: 14px;
+	width:230px;
+	height:23px;
+	color:#000;
+	font:bold 18px "Microsoft Yahei",Verdana,Arial,sans-serif;
+	padding:3px 4px 3px 8px;
 }
 
 div#password input#login{
