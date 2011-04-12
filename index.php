@@ -40,7 +40,7 @@ define("password", "mikado");
  */
 if(!isset($_POST['password'])) {?>
     <div id="logo">
-    <img src="dollars.jpg" alt="Dollars" />
+    <img src="images/dollars.jpg" alt="Dollars" />
     </div>
     <br /><br /><br />
     <div id="password">
@@ -63,7 +63,7 @@ if(!isset($_POST['password'])) {?>
     <br />
     <p>/ ** 站務鏈接 ** /</p>
     <div id="link_button">
-    <p><a href="http://drrr.603.jp/chat/">聊天室</a></p>
+    <p><a href="chat/">聊天室</a></p>
     <p><a href="announcement/">成員公告</a></p>
     <p><a href="http://drrr.603.jp/">線下集會</a></p>
     <p><a href="http://drrr.603.jp/">關於本站</a></p>
