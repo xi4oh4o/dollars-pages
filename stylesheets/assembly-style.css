@@ -1,0 +1,57 @@
+body{
+	background: none repeat scroll 0 0 #000000;
+	margin:auto;
+	-webkit-font-size-adjust:none; /* webkit kernel browser font size fix */
+}
+
+a{
+	color:#FFF;
+	text-decoration:none;
+}
+
+img {
+	border: 0 none;
+}
+
+textarea:focus {outline: none;} /* Remove the Chrome shine */
+input:focus{outline:none;}
+input a::-moz-focus-inner {border:0;} /* Remove the Firefox button outline */
+
+div#wrapper{
+	font:13px "Microsoft Yahei",Verdana,Arial,sans-serif;
+	color:Gray;
+	text-align:center;
+	width:960px;
+	margin:auto;
+	margin:auto;
+
+}
+
+div#ascii_logo{
+	text-align:right;
+}
+
+#divider > div#left {
+	float:left;
+	width:480px;
+
+}
+
+#divider > div#right {
+	float:left;
+	width:480px;
+}
+
+div#maps{
+	text-align:right;
+}
+
+div#maps p{
+	margin-top:1px;
+	margin-right:101px;
+	font:11px "Microsoft Yahei",Verdana,Arial,sans-serif;
+}
+
+.info{
+	font:11px "Microsoft Yahei",Verdana,Arial,sans-serif;
+}
