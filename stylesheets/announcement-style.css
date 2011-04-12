@@ -22,6 +22,7 @@ div#wrapper{
 	font:13px "Microsoft Yahei",Verdana,Arial,sans-serif;
 	color:Gray;
 	text-align:center;
+
 }
 
 div#ascii_logo{
@@ -33,4 +34,8 @@ div#ascii_logo{
 	color:Gray;
 	text-align:center;
 
+}
+
+div#footer{
+	margin-bottom: 200px;
 }

@@ -100,3 +100,7 @@ p.links_border{
 	margin:auto;
 	padding:auto;
 }
+
+div#footer{
+	margin-bottom: 200px;
+}
