@@ -45,8 +45,8 @@ if(!isset($_POST['password'])) {?>
     <br /><br /><br />
     <div id="password">
     <form action="/dollars/" method="post">
-    PASSWORD:&nbsp;&nbsp;<input type="password" name="password" id="passinput" />
-    <br /><br />
+    <div>PASSWORD:&nbsp;&nbsp;<input type="password" name="password" id="passinput" />
+    <br /><br /></div>
     <p><input type="submit" value="ENTER" id="login" /></p>
     </form>
     </div>
