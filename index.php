@@ -22,7 +22,7 @@ define("password", "mikado");
     <meta name="description" content="Dollars" />
     <meta name="author" content="xi4oh4o@gmail.com" />
     
-    <link rel="stylesheet" type="text/css" href="style_dollars_login.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/style_dollars_login.css" />
 <!--
     <script type="text/javascript" src="js/common.js"></script>
     <link rel="shortcut icon" href="images/favicon.ico" />
@@ -55,13 +55,23 @@ if(!isset($_POST['password'])) {?>
     <p>drrr成員登陸失敗，請使用以下密碼</p>
     <p>Password: mikado</p>
     </div>
-	<div id="designer" class="info">design by xh!</div>
+	
 <?php }else{?>
     <div id="broadcast">
     <div class="info"><p>有多少人就有多少思念，有多少人就有多少秘密。（《デュラララ!!》）</p>
-    <p>Dollars - Mikado</p>
+    <p>Our Dollars - MIKADO.I</p>
+    <br />
+    <p>/ ** 站務鏈接 ** /</p>
+    <div id="link_button">
+    <p><a href="http://drrr.603.jp/chat/">聊天室</a></p>
+    <p><a href="http://drrr.603.jp/chat/">成員公告</a></p>
+    <p><a href="http://drrr.603.jp/">線下聚會</a></p>
+    <p><a href="http://drrr.603.jp/">關於本站</a></p>
+    
+    <div id="designer" class="info">design by MIKADO.I</div>
     </div>
-    </div>
+	</div>
+	</div>
 <?php }?>
 </div>
 </body>
