@@ -66,7 +66,7 @@ if(!isset($_POST['password'])) {?>
     <p><a href="chat/">聊天室</a></p>
     <p><a href="announcement/">成員公告</a></p>
     <p><a href="assembly/">線下集會</a></p>
-    <p><a href="http://drrr.603.jp/">關於本站</a></p>
+    <p><a href="about/">關於本站</a></p>
     
     <div id="designer" class="info">design by MIKADO.I</div>
     </div>
