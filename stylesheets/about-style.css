@@ -1,0 +1,32 @@
+body{
+	background: none repeat scroll 0 0 #000000;
+	margin:auto;
+	width:960px;
+	-webkit-font-size-adjust:none; /* webkit kernel browser font size fix */
+}
+
+a{
+	color:#FFF;
+	text-decoration:none;
+}
+
+img {
+	border: 0 none;
+}
+
+textarea:focus {outline: none;} /* Remove the Chrome shine */
+input:focus{outline:none;}
+input a::-moz-focus-inner {border:0;} /* Remove the Firefox button outline */
+
+div#wrapper{
+	font:13px "Microsoft Yahei",Verdana,Arial,sans-serif;
+	color:Gray;
+	text-align:center;
+}
+
+.info {
+	font: 11px "Micorosft Yahei",Verdana,Arial,sans-serif;
+	color:Gray;
+	text-align:center;
+
+}
