@@ -55,3 +55,7 @@ div#maps p{
 .info{
 	font:11px "Microsoft Yahei",Verdana,Arial,sans-serif;
 }
+
+div#footer{
+	margin-bottom: 200px;
+}
