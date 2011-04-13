@@ -59,9 +59,8 @@ if(!isset($_POST['password'])) {?>
 <?php }else{?>
     <div id="broadcast">
     <div class="info"><p>有多少人就有多少思念，有多少人就有多少秘密。（《デュラララ!!》）</p>
-    <p>Our Dollars - MIKADO.I</p>
+    <p>Dollars - Mikado</p>
     <br />
-    <p>/ ** 站務鏈接 ** /</p>
     <div id="link_button">
     <p><a href="chat/">聊天室</a></p>
     <p><a href="announcement/">成員公告</a></p>
