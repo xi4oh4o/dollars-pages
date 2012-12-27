@@ -4,7 +4,7 @@
  * Admin
  */
 define('DURA_ADMIN_NAME', 'admin');
-define('DURA_ADMIN_PASS', 'mikado912913');
+define('DURA_ADMIN_PASS', 'admin');
 
 /**
  * URL & Path
