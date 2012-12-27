@@ -59,3 +59,39 @@ div#maps p{
 div#footer{
 	margin-bottom: 200px;
 }
+
+/*Mobile Ver.
+--------------------------------*/
+@media screen and (max-width: 720px) {
+	body {
+		width: 100%;
+	}
+
+	div#wrapper {
+		width: 100%;
+	}
+
+	div#ascii_logo {
+		display: none;
+	}
+
+	#divider > div#left {
+		width: 100%;
+	}
+
+	#divider > div#right {
+		width: 100%;
+	}
+
+	div#maps {
+		text-align: center;
+	}
+
+	div#maps p {
+		margin-right: 0;
+	}
+
+	div#footer {
+		display: none;
+	}
+}

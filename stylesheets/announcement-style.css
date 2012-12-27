@@ -37,5 +37,30 @@ div#ascii_logo{
 }
 
 div#footer{
-	margin-bottom: 200px;
+	/*margin-bottom: 200px;*/
 }
+
+/* Mobile Ver.
+----------------------------------------*/
+
+@media screen and (max-width: 720px) {
+	body {
+		width: 100%;
+	}
+
+	#ascii_logo {
+		display: none;
+	}
+
+	div#footer {
+		margin-bottom: 0;
+	}
+}
+
+
+
+
+
+
+
+

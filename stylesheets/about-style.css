@@ -30,3 +30,16 @@ div#wrapper{
 	text-align:center;
 
 }
+
+/* Mobile Ver.
+------------------------------------*/
+@media screen and (max-width: 720px) {
+	body {
+		width: 100%;
+	}
+
+	#ascii_logo {
+		display: none;
+	}
+
+	}

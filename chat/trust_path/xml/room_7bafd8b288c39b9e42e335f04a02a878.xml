@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<room>
+	<name>啦啦啦啦啦啦啦来了</name>
+	<update>1356590018</update>
+	<limit>2</limit>
+	<host>b94c613058ca93fdc275b1b35be11af7</host>
+	<language>zh-CN</language>
+	<users>
+		<name>admin</name>
+		<id>b94c613058ca93fdc275b1b35be11af7</id>
+		<icon>gg</icon>
+		<update>1356590018</update>
+	</users>
+	<talks>
+		<id>e43231fe08a74c22fce310764ca6e95b</id>
+		<uid>0</uid>
+		<name>admin</name>
+		<message>{1} logged in.</message>
+		<icon>
+		</icon>
+		<time>1356590018</time>
+	</talks>
+</room>

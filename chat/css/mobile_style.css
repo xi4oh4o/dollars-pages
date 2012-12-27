@@ -1,0 +1,79 @@
+/* Mobile ver.
+designer by Howe
+----------------------------*/
+@media screen and (max-width: 720px) {
+
+	body {
+		width: auto;
+	}
+
+	img {
+		width: auto;
+	}
+
+	div#body {
+		position: static;
+		width: auto;
+		left: 0;
+		margin: auto;
+	}
+
+	#login .field .textbox {
+		width: auto;
+	}
+
+	.button input {
+		width: auto;
+	}
+
+	.language {
+		display: none;
+	}
+
+	div.header {
+		padding: 5px;
+	}
+
+	#login .copyright {
+		margin: 0px 0 20px 0;
+	}
+
+	ul#profile {
+		width: 98%;
+	}
+
+	div.message_box {
+		position: static;
+	}
+
+	div.message_box_inner {
+		position: static;
+		margin-left: 0;
+		width: 100%;
+	}
+
+	#message {
+		padding: 1px 0;
+	}
+
+	#message textarea {
+		width: 90%;
+		margin: 0 0 0 8px;
+	}
+
+	#message div.submit input {
+		margin: 5px 7px;
+	}
+
+	#talks {
+		margin-top: 50px;
+	}
+
+	ul.rooms li.creater {
+		width: auto;
+	}
+
+	ul.rooms li.name {
+		width: 45%;
+	}
+}

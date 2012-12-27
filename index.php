@@ -14,6 +14,14 @@
 define("password", "mikado");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- 
+      _     _ 
+     | |   | |
+__  _| |__ | |
+\ \/ / '_ \| |
+ >  <| | | |_|
+/_/\_\_| |_(_)
+ -->
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh" lang="zh" dir="ltr">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -21,7 +29,7 @@ define("password", "mikado");
     <meta name="keywords" content="Dollars" />
     <meta name="description" content="Dollars" />
     <meta name="author" content="xi4oh4o@gmail.com" />
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/style_dollars_login.css" />
 <!--
     <script type="text/javascript" src="js/common.js"></script>
@@ -40,20 +48,21 @@ define("password", "mikado");
  */
 if(!isset($_POST['password'])) {?>
     <div id="logo">
-    <img src="images/dollars.jpg" alt="Dollars" />
+    <img src="images/dollars-full-color.jpg" alt="Dollars" />
     </div>
-    <br /><br /><br />
     <div id="password">
-    <form action="/dollars/" method="post">
+    <form action="." method="post">
     <div>PASSWORD:&nbsp;&nbsp;<input type="password" name="password" id="passinput" />
     <br /><br /></div>
-    <p><input type="submit" value="ENTER" id="login" /></p>
+    <p><input type="submit" class="button" value="ENTER" id="login" /></p>
     </form>
     </div>
 <?php }else if($_POST['password'] != password){ ?>
 	<div id="err" class="info">
     <p>drrr成員登陸失敗，請使用以下密碼</p>
     <p>Password: mikado</p>
+    <br />
+    <p><input type="button" class="button" value="后退" onclick="history.go(-1)" /></p>
     </div>
 	
 <?php }else{?>
